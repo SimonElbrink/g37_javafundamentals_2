@@ -59,6 +59,14 @@ Reuse names
 ### How?
 ``{}``
 
-_Look in the MyScope.java file_  
+_Look in the [MyScope.java] file_  
+
+
+
+
+
+
+
+
 
 [MyScope.java]: https://github.com/SimonElbrink/g37_javafundamentals_2/blob/master/src/main/java/se/lexicon/simon/MyScope.java
