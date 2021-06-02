@@ -22,21 +22,23 @@ public class App
 
     }
 
-    void a(){}
+    {}
 
-    private static void name(){}
+    void a(){} // Small example of a Method.
 
-    public static void words(){}
+    private static void printSecretWord(){}
+
+    public static void proclaimingAMessage(){}
 
 
 } // end of App class
 
-class Foo{
+class Foo{ //Start Of Foo Class
 
-    public static void main(String[] args) {
-        //App.name();
-        App.words();
+    public static void main(String[] args) { // Start of Main method.
+        //App.printSecretWord(); // Will not work. It's a private method.
+        App.proclaimingAMessage();
 
-    }
+    }//End of main method
 
-}
+} //End of Foo class.

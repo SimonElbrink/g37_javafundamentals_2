@@ -2,20 +2,17 @@ package se.lexicon.simon.model;
 
 public class Car { //start of Car class
 
-    private static int counter = 0;
+    //Protecting Your fields
     private String brand;
     private String regNumber;
 
-    static {
 
-        counter++;
-    }
-
-    //behavior
+    //behaviors
     public void getInformation(){
         System.out.println("Brand: " + brand + " regNumber: " +regNumber);
     }
 
+    //Setters | Controlling the usages of setting.
     public void setBrand(String brandToSet){
         brand = brandToSet;
     }
