@@ -8,11 +8,12 @@ public class MyScope {
     public static void main(String[] args) {
         int num = 0;
 
-        foo();
-        MyScope.foo();// Same as "foo()" in this situation, more specific or Targeted.
+        // staticExample();
+        MyScope.staticExample();// Same as "foo()" in this situation, more specific or Targeted.
+        variableFromParameter(num);
     }
 
-    public static void foo(){
+    public static void staticExample(){
         int num = 90;
 
         System.out.println(num);
@@ -21,7 +22,12 @@ public class MyScope {
         System.out.println("MyScope.num : " + MyScope.num);
     }
 
-    public void foo1(){
+    public static void variableFromParameter(int num){
+        System.out.println("Local Variable From parameter: " + num);
+        System.out.println("MyScope.num : " + MyScope.num);
+    }
+
+    public void instanceVariableExample(){
         int number = 40;
 
         System.out.println("Local Variable : " + number);
